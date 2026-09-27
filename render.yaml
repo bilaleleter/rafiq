@@ -1,0 +1,38 @@
+# Render Blueprint for the backend (FastAPI). The frontend goes on Vercel.
+# Render dashboard -> New -> Blueprint -> pick this repo. Then fill the secret values it asks for.
+services:
+  - type: web
+    name: rafiq-api
+    runtime: python
+    rootDir: backend
+    plan: starter            # "free" works too, but it sleeps after 15 min and wakes up slowly
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --timeout-graceful-shutdown 3
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: DEV_MODE
+        value: "0"
+      - key: DEMO_MODE
+        value: "1"
+      - key: COUNTRY
+        value: TN
+      - key: LLM_BASE_URL
+        value: https://integrate.api.nvidia.com/v1
+      - key: LLM_MODEL
+        value: nvidia/nemotron-3-super-120b-a12b
+      - key: VISION_MODEL
+        value: meta/llama-3.2-11b-vision-instruct
+      - key: LLM_API_KEY
+        sync: false
+      - key: GOOGLE_SERVER_KEY
+        sync: false
+      - key: GOOGLE_BROWSER_KEY
+        sync: false
+      - key: GOOGLE_MAP_ID
+        sync: false
+      - key: FIRMS_MAP_KEY
+        sync: false
+      - key: YOUTUBE_API_KEY
+        sync: false

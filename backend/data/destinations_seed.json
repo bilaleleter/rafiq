@@ -1,0 +1,178 @@
+[
+ {
+  "id": "tunis_medina",
+  "name": "Medina of Tunis",
+  "lat": 36.7989,
+  "lon": 10.1706,
+  "category": "medina",
+  "source": "seed"
+ },
+ {
+  "id": "bardo",
+  "name": "Bardo National Museum",
+  "lat": 36.8093,
+  "lon": 10.1345,
+  "category": "museum",
+  "source": "seed"
+ },
+ {
+  "id": "carthage",
+  "name": "Carthage (Antonine Baths)",
+  "lat": 36.8528,
+  "lon": 10.3233,
+  "category": "history",
+  "source": "seed"
+ },
+ {
+  "id": "sidi_bou_said",
+  "name": "Sidi Bou Said",
+  "lat": 36.8702,
+  "lon": 10.3417,
+  "category": "sight",
+  "source": "seed"
+ },
+ {
+  "id": "la_marsa",
+  "name": "La Marsa beach",
+  "lat": 36.8784,
+  "lon": 10.3247,
+  "category": "beach",
+  "source": "seed"
+ },
+ {
+  "id": "bizerte",
+  "name": "Bizerte Old Port",
+  "lat": 37.2744,
+  "lon": 9.8739,
+  "category": "sight",
+  "source": "seed"
+ },
+ {
+  "id": "ichkeul",
+  "name": "Ichkeul National Park",
+  "lat": 37.14,
+  "lon": 9.67,
+  "category": "nature",
+  "source": "seed"
+ },
+ {
+  "id": "tabarka",
+  "name": "Tabarka",
+  "lat": 36.9544,
+  "lon": 8.7581,
+  "category": "beach",
+  "source": "seed"
+ },
+ {
+  "id": "ain_draham",
+  "name": "Aïn Draham forests",
+  "lat": 36.7756,
+  "lon": 8.6836,
+  "category": "nature",
+  "source": "seed"
+ },
+ {
+  "id": "dougga",
+  "name": "Dougga",
+  "lat": 36.4225,
+  "lon": 9.2189,
+  "category": "history",
+  "source": "seed"
+ },
+ {
+  "id": "kelibia",
+  "name": "Kelibia Fort & beach",
+  "lat": 36.8476,
+  "lon": 11.0929,
+  "category": "beach",
+  "source": "seed"
+ },
+ {
+  "id": "nabeul",
+  "name": "Nabeul",
+  "lat": 36.4561,
+  "lon": 10.7376,
+  "category": "medina",
+  "source": "seed"
+ },
+ {
+  "id": "hammamet",
+  "name": "Hammamet Medina & beach",
+  "lat": 36.3997,
+  "lon": 10.6167,
+  "category": "beach",
+  "source": "seed"
+ },
+ {
+  "id": "sousse",
+  "name": "Medina of Sousse",
+  "lat": 35.8256,
+  "lon": 10.6366,
+  "category": "medina",
+  "source": "seed"
+ },
+ {
+  "id": "monastir",
+  "name": "Ribat of Monastir",
+  "lat": 35.7773,
+  "lon": 10.8269,
+  "category": "history",
+  "source": "seed"
+ },
+ {
+  "id": "el_jem",
+  "name": "El Jem Amphitheatre",
+  "lat": 35.2964,
+  "lon": 10.7069,
+  "category": "history",
+  "source": "seed"
+ },
+ {
+  "id": "kairouan",
+  "name": "Great Mosque of Kairouan",
+  "lat": 35.6812,
+  "lon": 10.1036,
+  "category": "history",
+  "source": "seed"
+ },
+ {
+  "id": "djerba",
+  "name": "Djerba Houmt Souk",
+  "lat": 33.8757,
+  "lon": 10.8575,
+  "category": "beach",
+  "source": "seed"
+ },
+ {
+  "id": "matmata",
+  "name": "Matmata troglodyte houses",
+  "lat": 33.5427,
+  "lon": 9.9667,
+  "category": "desert",
+  "source": "seed"
+ },
+ {
+  "id": "douz",
+  "name": "Douz (Sahara gateway)",
+  "lat": 33.457,
+  "lon": 9.021,
+  "category": "desert",
+  "source": "seed"
+ },
+ {
+  "id": "tozeur",
+  "name": "Tozeur oasis",
+  "lat": 33.9197,
+  "lon": 8.1335,
+  "category": "desert",
+  "source": "seed"
+ },
+ {
+  "id": "chebika",
+  "name": "Chebika mountain oasis",
+  "lat": 34.319,
+  "lon": 7.936,
+  "category": "nature",
+  "source": "seed"
+ }
+]

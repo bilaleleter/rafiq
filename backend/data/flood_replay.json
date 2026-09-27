@@ -1,0 +1,148 @@
+[
+ {
+  "minute": 0,
+  "place": "Hammamet centre (simulated)",
+  "lat": 36.39987,
+  "lon": 10.61361,
+  "anchor": "kerb_top",
+  "confidence": 0.6,
+  "flowing": false,
+  "dangers": [],
+  "note": "simulated demo report"
+ },
+ {
+  "minute": 8,
+  "place": "Hammamet centre (simulated)",
+  "lat": 36.40019,
+  "lon": 10.61375,
+  "anchor": "person_ankle",
+  "confidence": 0.8,
+  "flowing": false,
+  "dangers": [],
+  "note": "simulated demo report"
+ },
+ {
+  "minute": 15,
+  "place": "Hammamet coastal road (simulated)",
+  "lat": 36.3938,
+  "lon": 10.59896,
+  "anchor": "car_tyre_bottom_third",
+  "confidence": 0.65,
+  "flowing": false,
+  "dangers": [],
+  "note": "simulated demo report"
+ },
+ {
+  "minute": 22,
+  "place": "Hammamet centre (simulated)",
+  "lat": 36.39933,
+  "lon": 10.61431,
+  "anchor": "person_mid_calf",
+  "confidence": 0.8,
+  "flowing": false,
+  "dangers": [
+   "debris"
+  ],
+  "note": "simulated demo report"
+ },
+ {
+  "minute": 30,
+  "place": "Hammamet coastal road (simulated)",
+  "lat": 36.39292,
+  "lon": 10.59936,
+  "anchor": "car_tyre_half",
+  "confidence": 0.7,
+  "flowing": true,
+  "dangers": [
+   "fast current"
+  ],
+  "note": "simulated demo report"
+ },
+ {
+  "minute": 38,
+  "place": "Yasmine Hammamet access road (simulated)",
+  "lat": 36.37119,
+  "lon": 10.54493,
+  "anchor": "kerb_top",
+  "confidence": 0.6,
+  "flowing": false,
+  "dangers": [],
+  "note": "simulated demo report"
+ },
+ {
+  "minute": 45,
+  "place": "Hammamet centre (simulated)",
+  "lat": 36.40131,
+  "lon": 10.61344,
+  "anchor": "person_knee",
+  "confidence": 0.85,
+  "flowing": true,
+  "dangers": [
+   "fast current",
+   "submerged manhole"
+  ],
+  "note": "simulated demo report"
+ },
+ {
+  "minute": 52,
+  "place": "Hammamet coastal road (simulated)",
+  "lat": 36.39383,
+  "lon": 10.59916,
+  "anchor": "car_door_bottom",
+  "confidence": 0.7,
+  "flowing": true,
+  "dangers": [
+   "stranded car"
+  ],
+  "note": "simulated demo report"
+ },
+ {
+  "minute": 60,
+  "place": "Yasmine Hammamet access road (simulated)",
+  "lat": 36.37032,
+  "lon": 10.54588,
+  "anchor": "person_mid_calf",
+  "confidence": 0.75,
+  "flowing": false,
+  "dangers": [],
+  "note": "simulated demo report"
+ },
+ {
+  "minute": 70,
+  "place": "Hammamet centre (simulated)",
+  "lat": 36.40056,
+  "lon": 10.61408,
+  "anchor": "car_tyre_top",
+  "confidence": 0.7,
+  "flowing": true,
+  "dangers": [
+   "stranded car",
+   "fast current"
+  ],
+  "note": "simulated demo report"
+ },
+ {
+  "minute": 80,
+  "place": "Hammamet coastal road (simulated)",
+  "lat": 36.39391,
+  "lon": 10.59895,
+  "anchor": "car_bonnet",
+  "confidence": 0.6,
+  "flowing": true,
+  "dangers": [
+   "stranded car"
+  ],
+  "note": "simulated demo report"
+ },
+ {
+  "minute": 90,
+  "place": "Yasmine Hammamet access road (simulated)",
+  "lat": 36.37062,
+  "lon": 10.54522,
+  "anchor": "person_knee",
+  "confidence": 0.8,
+  "flowing": false,
+  "dangers": [],
+  "note": "simulated demo report"
+ }
+]

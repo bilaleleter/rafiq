@@ -1,0 +1,8 @@
+node_modules
+frontend/node_modules
+frontend/dist
+.venv
+backend/.venv
+backend/.env
+**/__pycache__
+backend/data/translate_cache.json

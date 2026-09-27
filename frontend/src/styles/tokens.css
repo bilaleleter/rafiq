@@ -1,0 +1,36 @@
+/* Rafiq design tokens — from "Rafiq Design System" (Claude Design, first pass). */
+:root {
+  --ink:#0B1B2B; --ink-2:#4A5B6D; --ink-3:#8193A6;
+  --surface:#FFFFFF; --surface-2:#F2F5F8; --canvas:#E8EEF3; --line:#DCE3EA;
+  --brand:#1553D1; --brand-press:#0B3FA8; --brand-soft:#E6EEFF; --on-brand:#FFFFFF;
+  --clear:#1F8A5B; --caution:#C98A00; --avoid:#D7263D; --unknown:#7A8CA0;
+  --water:#2A7FFF; --water-est:#9CC4FF; --fire:#FF6A1A; --power:#F5C400; --sky:#6E6BD8; --heat:#E8553D; --cyan:#0FA3B8;
+  --toast:#0B1B2B; --on-toast:#FFFFFF;
+  --shadow-sheet:0 -8px 32px rgba(8,17,27,.18); --shadow-float:0 4px 16px rgba(8,17,27,.16);
+  --r-sheet:20px; --r-card:16px; --r-ctl:12px;
+  --font-display:"Manrope",system-ui,sans-serif; --font-ui:"Inter",system-ui,sans-serif;
+  --font-ar:"IBM Plex Sans Arabic","Inter",sans-serif; --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink:#EAF1F8; --ink-2:#9FB0C2; --ink-3:#6B7D90;
+    --surface:#0F1A26; --surface-2:#152332; --canvas:#08111B; --line:#223244;
+    --brand:#4C86FF; --brand-press:#3A6FE0; --brand-soft:#15284A; --on-brand:#06101C;
+    --clear:#3CCB8A; --caution:#F2B61E; --avoid:#FF5A6E; --unknown:#7A8CA0;
+    --water:#4B97FF; --water-est:#6FA6FF; --fire:#FF7A33; --power:#FFD43B; --sky:#8F8CF0; --heat:#FF6E57; --cyan:#3CC9DC;
+    --toast:#EAF1F8; --on-toast:#0B1B2B;
+    --shadow-sheet:0 -8px 32px rgba(0,0,0,.5); --shadow-float:0 4px 16px rgba(0,0,0,.45);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ink:#EAF1F8; --ink-2:#9FB0C2; --ink-3:#6B7D90;
+  --surface:#0F1A26; --surface-2:#152332; --canvas:#08111B; --line:#223244;
+  --brand:#4C86FF; --brand-press:#3A6FE0; --brand-soft:#15284A; --on-brand:#06101C;
+  --clear:#3CCB8A; --caution:#F2B61E; --avoid:#FF5A6E; --unknown:#7A8CA0;
+  --water:#4B97FF; --water-est:#6FA6FF; --fire:#FF7A33; --power:#FFD43B; --sky:#8F8CF0; --heat:#FF6E57; --cyan:#3CC9DC;
+  --toast:#EAF1F8; --on-toast:#0B1B2B;
+  --shadow-sheet:0 -8px 32px rgba(0,0,0,.5); --shadow-float:0 4px 16px rgba(0,0,0,.45);
+  color-scheme: dark;
+}
