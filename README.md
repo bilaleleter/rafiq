@@ -101,7 +101,7 @@ The frontend is on **Vercel**. The backend is on **Render**, because it keeps ru
 **Frontend on Vercel**
 1. On vercel.com: Add New, then Project, then import the same repo.
 2. Set **Root Directory** to `frontend`. Vercel detects Vite by itself.
-3. Add the environment variable `VITE_API_BASE` = `https://YOUR-API.onrender.com`.
+3. Add the environment variable `BACKEND_URL` = `https://YOUR-API.onrender.com` (no slash at the end). It stays private: `frontend/api/proxy.js` forwards `/api` calls to it from Vercel's servers.
 4. Deploy.
 
 **Google key:** in Google Cloud, open the browser key and add `https://YOUR-APP.vercel.app/*` to its allowed websites, or the map will not load.
