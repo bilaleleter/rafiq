@@ -3,7 +3,7 @@
 **Rafiq** means "companion" in Arabic. It's a travel app for tourists in Tunisia that tells you what is going wrong right now where you want to go (floods, fires, storms, heat, power cuts, water cuts, accidents, blocked roads), gets you there on a route that avoids it, and helps you call for help in Arabic and French if something happens to you.
 
 
-**Live demo:** https://YOUR-APP.vercel.app (backend: https://YOUR-API.onrender.com)
+**Live demo: https://rafiq-fork.vercel.app** (open it on a phone or in a narrow window; the flask button simulates live problems)
 **Demo video (90 s):** LINK
 **Slides:** LINK
 
